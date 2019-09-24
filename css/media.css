@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+  .services-item:hover .services-content {
+    background-color: #0077e6;
+  }
+  .services-item:hover .services__text,
+  .services-item:hover .services__icon {
+    color: #fff;
+  }
+  .services-item:hover::before {
+    background-color: #0077e6;
+  }
+  .rent-item:hover .rent-content {
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 119, 230, 0.13);
+    padding-top: 0;
+  }
+  .rent-item:hover::before {
+    background-color: #fff;
+  }
+  .rent-item:hover + .rent-item::before {
+    background-color: #fff;
+  }
+  .rent-item:hover .rent__btn {
+    opacity: 1;
+  }
+  .rent__btn:hover {
+    background-color: #537ea6;
+    color: #fff;
+  }
+}
