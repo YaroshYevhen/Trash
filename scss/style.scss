@@ -1384,3 +1384,38 @@ main {
     margin-block-end: 1em;
   }
 }
+
+/* thanks */
+
+.thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.thanks-container {
+  max-width: 630px;
+  padding: 0 15px;
+}
+
+.thanks-container > span {
+  display: block;
+  text-align: center;
+}
+
+.thanks__title {
+  color: #0d1d2e;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+
+.thanks__text {
+  color: #1f1f1f;
+  font-size: 20px;
+  font-weight: 400;
+}
