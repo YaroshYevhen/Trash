@@ -525,7 +525,7 @@ main {
 	}
 	&-nav {
 		position: absolute;
-		bottom: 5px;
+		bottom: 25px;
 		left: 50%;
 		transform: translateX(-50%);
 	}
@@ -554,8 +554,9 @@ main {
 		}
 	}
 	&-counter {
-		margin-left: 20px;
-		margin-right: 20px;
+		width: 80px;
+		margin-left: 10px;
+		margin-right: 10px;
 		&__current {
 			font-size: 32px;
 			margin-right: 5px;
@@ -568,7 +569,7 @@ main {
 }
 
 .autopark {
-	padding: 90px 0 100px;
+	padding: 90px 0 80px;
 	margin-bottom: 90px;
 	background-color: #e5f0f9;
 	position: relative;
@@ -576,7 +577,7 @@ main {
 		position: relative;
 	}
 	.slider-container {
-		height: 525px;
+		height: 545px;
 	}
 	&__bg {
 		position: absolute;
@@ -781,9 +782,9 @@ main {
 /* TESTIMONIALS */
 
 .testimonials {
-	margin-bottom: 140px;
+	margin-bottom: 120px;
 	.slider-container {
-		height: 425px;
+		height: 445px;
 	}
 	&-item {
 		width: 540px;
@@ -802,6 +803,7 @@ main {
 		}
 	}
 	&-content {
+		position: relative;
 		width: 100%;
 		height: 245px;
 		background-color: #fff;

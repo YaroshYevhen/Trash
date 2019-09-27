@@ -223,7 +223,7 @@
     width: calc(50% - 30px);
   }
   .autopark {
-    padding: 70px 0 80px;
+    padding: 70px 0 60px;
   }
   .autopark__bg {
     height: 760px;
@@ -301,7 +301,7 @@
     width: 100%;
   }
   .testimonials {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .testimonials-item {
     width: 690px;
@@ -454,7 +454,7 @@
     width: 330px;
   }
   .autopark {
-    padding: 50px 0 80px;
+    padding: 50px 0 60px;
     margin-bottom: 70px;
   }
   .autopark__bg {
@@ -640,6 +640,12 @@
   .price__bg {
     height: 1200px;
     left: -450px;
+  }
+  .price-quantity {
+    width: 100%;
+  }
+  .amount {
+    justify-content: center;
   }
   .footer {
     height: 93px;
