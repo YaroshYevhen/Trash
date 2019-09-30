@@ -883,10 +883,12 @@ main {
   font-size: 20px;
   line-height: 1;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .advantages__text {
   line-height: 20px;
+  position: relative;
 }
 
 /************/
@@ -1751,11 +1753,13 @@ main {
   font-size: 20px;
   line-height: 22px;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .contacts__text {
   font-size: 16px;
   line-height: 20px;
+  position: relative;
 }
 
 .contacts__text a {
