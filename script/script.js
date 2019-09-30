@@ -26,6 +26,12 @@ function closeModal() {
 }
 
 APP.$document.ready(function() {
+
+	$('.preloader').delay(500).fadeToggle(500);
+  setTimeout(function (){
+    $('html').removeClass('overflow');
+  }, 500);
+
 	APP.hamburger.on('click', function(){
 		if(!$(this).hasClass('active')) {
     	$('.nav').scrollTop(0);
