@@ -183,6 +183,12 @@
     border-radius: 7px;
     box-shadow: 0px 0px 40px 0px rgba(0, 119, 230, 0.13);
   }
+  .services-item:nth-of-type(4) .services__icon {
+    transition-delay: 0s;
+  }
+  .services-item:nth-of-type(5) .services__icon {
+    transition-delay: .1s;
+  }
   .services-item::before {
     z-index: 2;
   }
@@ -245,9 +251,6 @@
   .autopark-item.prev {
     transform: translateX(-370px);
   }
-  .rent {
-    margin-bottom: 90px;
-  }
   .rent-item {
     height: 360px;
   }
@@ -280,7 +283,8 @@
     width: 100%;
   }
   .about {
-    margin-bottom: 70px;
+    padding-top: 90px;
+    margin-bottom: 0; 
   }
   .about-container {
     flex-wrap: wrap;
@@ -302,6 +306,7 @@
   }
   .testimonials {
     margin-bottom: 60px;
+    padding-top: 70px;
   }
   .testimonials-item {
     width: 690px;
@@ -318,7 +323,6 @@
   }
   .price {
     padding: 70px 0;
-    margin-bottom: 70px;
   }
   .price__bg {
     height: 800px;
@@ -341,6 +345,7 @@
   }
   .contacts {
     margin-bottom: 70px;
+    padding-top: 70px;  
   }
   .contacts-container {
     flex-wrap: wrap;
@@ -349,6 +354,12 @@
   .contacts-item {
     width: calc(50% - 30px);
     margin-bottom: 50px;
+  }
+  .contacts-item:nth-of-type(2n + 1) .contacts__icon img {
+    transition-delay: 0s;
+  }
+  .contacts-item:nth-of-type(2n) .contacts__icon img {
+    transition-delay: .1s;
   }
   .form {
     padding-bottom: 80px;
@@ -428,6 +439,9 @@
   .services-item {
     width: 100%;
   }
+  .services-item:nth-of-type(n) .services__icon {
+    transition-delay: 0s;
+  }
   .services-item:nth-of-type(n)::after {
     width: 100%;
   }
@@ -455,7 +469,6 @@
   }
   .autopark {
     padding: 50px 0 60px;
-    margin-bottom: 70px;
   }
   .autopark__bg {
     height: 725px;
@@ -477,6 +490,9 @@
   }
   .autopark-item.prev {
     transform: translateX(-400px);
+  }
+  .rent {
+    padding-top: 70px;
   }
   .rent-container {
     flex-wrap: wrap;
@@ -576,6 +592,7 @@
   .price-total {
     margin-right: 0;
     margin-bottom: 20px;
+    width: 100%;
   }
   .price-cost {
     margin-bottom: 30px;
@@ -592,8 +609,8 @@
   .contacts-item {
     width: 330px;
   }
-  .form__title {
-    text-align: center;
+  .contacts-item:nth-of-type(n) .contacts__icon img {
+    transition-delay: 0s;
   }
   .form-container {
     width: 330px;

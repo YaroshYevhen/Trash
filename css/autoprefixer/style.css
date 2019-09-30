@@ -465,6 +465,10 @@ main {
   z-index: 10;
 }
 
+.header__logo {
+  width: 135px;
+}
+
 .header__tel {
   font-size: 16px;
   -webkit-transition: color .3s;
@@ -1934,4 +1938,305 @@ main {
   color: #1f1f1f;
   font-size: 20px;
   font-weight: 400;
+}
+
+/*************/
+/* preloader */
+.preloader {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.item-1 {
+  width: 20px;
+  height: 20px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eed968;
+  margin: 7px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50%,
+  75% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  78%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50%,
+  75% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  78%, 100% {
+    opacity: 0;
+  }
+}
+
+.item-1:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eed968;
+  opacity: 0.7;
+  -webkit-animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item-2 {
+  width: 20px;
+  height: 20px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eece68;
+  margin: 7px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50%,
+  75% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  78%, 100% {
+    opacity: 0;
+  }
+}
+
+.item-2:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eece68;
+  opacity: 0.7;
+  -webkit-animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item-3 {
+  width: 20px;
+  height: 20px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eec368;
+  margin: 7px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50%,
+  75% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  78%, 100% {
+    opacity: 0;
+  }
+}
+
+.item-3:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eec368;
+  opacity: 0.7;
+  -webkit-animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  -webkit-animation-delay: 600ms;
+  animation-delay: 600ms;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item-4 {
+  width: 20px;
+  height: 20px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eead68;
+  margin: 7px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50%,
+  75% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  78%, 100% {
+    opacity: 0;
+  }
+}
+
+.item-4:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eead68;
+  opacity: 0.7;
+  -webkit-animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.item-5 {
+  width: 20px;
+  height: 20px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #ee8c68;
+  margin: 7px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50%,
+  75% {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+  78%, 100% {
+    opacity: 0;
+  }
+}
+
+.item-5:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ee8c68;
+  opacity: 0.7;
+  -webkit-animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
